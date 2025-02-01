@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <button type="button" class="mybutton" id="myBtn">Go Home</button>
+    <h1>Contact Us</h1>
+
+    <div class="image-container">
+        <img src="contact.jpg" alt="School Image">
+    </div>
+
+    <div class="table-container">
+        <h2>CONTACT FOR ADMISSION</h2>
+        <table>
+            <tr>
+                <th>Section</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Principal</td>
+                <td>+34583178801</td>
+                <td><a href="mailto:principal_admin@helenski.com">principal_admin@helenski.com</a></td>
+            </tr>
+            <tr>
+                <td>Registrar</td>
+                <td>+34583178803</td>
+                <td><a href="mailto:registrar_admin@helenski.com">registrar_admin@helenski.com</a></td>
+            </tr>
+            <tr>
+                <td>Student Section</td>
+                <td>+34583167704</td>
+                <td><a href="mailto:studentsection_admin@helenski.com">studentsection_admin@helenski.com</a></td>
+            </tr>
+            <tr>
+                <td>Account Section</td>
+                <td>+34583156706</td>
+                <td><a href="mailto:adminaccounts@helenski.com">adminaccounts@helenski.com</a></td>
+            </tr>
+            <tr>
+                <td>Exam Section</td>
+                <td>+34583891745</td>
+                <td><a href="mailto:exam_admin@helenski.com">exam_admin@helenski.com</a></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="container">
+        <div class="contact-form">
+            <h2>Contact Us Form</h2>
+            <form id="contactForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+
+        <hr>
+
+        <div class="contact-details">
+            <h2 class="highlight">Helenski</h2>
+            <h3>Address & Contacts Details</h3>
+            <p><strong>Phone:</strong> +345 6925 1870</p>
+            <p><strong>Email:</strong> <a href="mailto:hp-info@ww.helenski.com">hp-info@ww.helenski.com</a></p>
+            <h3>Address:</h3>
+            <p>PO Box 7366<br>MOUNT AUSTIN NSW 2650<br>105 Fernleigh Road<br>WAGGA WAGGA NSW 2650<br>Helenski Finland</p>
+            <p><strong>Administration Office hours:</strong><br>Monday - Friday<br>8.30am to 4.30pm</p>
+        </div>
+    </div>
+
+    <div class="map-container">
+        <h3>Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32514688.369642526!2d-53.09971850000003!3d60.17180890000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a2effffffff%3A0x1ff229c86756df6b!2sHelsinki%20International%20Schools%20Group!5e0!3m2!1sen!2sin!4v1738347194222!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>

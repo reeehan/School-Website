@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+
+.mybutton{
+    display: flex;
+    justify-content: left;
+    background-color: #007bff;
+    color: white;
+    height: 30px;
+    width: 85px;
+}
+
+.mybutton:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+h1 {
+    color: #007BFF ;
+    font-size: 3rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+img {
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table-container {
+    margin: 20px auto;
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #007BFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+td a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #C4D9FF;
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #C4D9FF;
+}
+
+.contact-form, .contact-details {
+    width: 45%;
+    padding: 20px;
+}
+
+h2, h3 {
+    margin-bottom: 10px;
+}
+
+
+.contact-details p{
+    margin-top: 10px;
+    color: black;
+    font-size: larger;
+    padding-top: 20px;
+}
+
+.highlight {
+    color: #007bff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    font-size: large;
+}
+
+button[type="reset"] {
+    background-color: darkblue;
+    color: white;
+}
+
+.map-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #C4D9FF;
+}
+.map-container h3{
+    color: #007bff;
+    font-size: xx-large;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    border: 20px solid black;
+}

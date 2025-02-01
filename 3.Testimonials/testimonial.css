@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.6;
+  }
+
+  .test button{
+    height: 35px;
+    width: 85px;
+    background-color: #e0f7fa;
+  }
+
+  .test button:hover{
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  header {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    font-size: x-large;
+  }
+
+  .test button{
+    display: flex;
+    justify-content: left;
+    border-radius: 8px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 35px;
+}
+  
+  .testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .testimonial {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background: #f9f9f9;
+  }
+  
+  .testimonial h3 {
+    color: #007bff;
+  }
+  
+  .schedule {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .schedule h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .schedule .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .schedule ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .schedule li {
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+  }
+  
+  strong {
+    color: #007bff;
+  }  
+
+
+  .schedule {
+    transition: background-color 0.3s ease;
+  }
+  
+  .schedule.hovered {
+    background-color: rgba(0, 0, 0, 0.1); 
+  }
+  
